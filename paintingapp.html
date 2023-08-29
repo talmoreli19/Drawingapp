@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>painting-app</title>
+</head>
+<body>
+    <div>
+<h1 class="text-center">painting-app</h1>
+
+    </div>
+
+    <div id="color-options">
+        <button class="color-button" data-color="black" style="background-color: black;"></button>
+        <button class="color-button" data-color="red" style="background-color: red;"></button>
+        <button class="color-button" data-color="blue" style="background-color: blue;"></button>
+        <button class="color-button" data-color="green" style="background-color: green;"></button>
+        <button class="color-button" data-color="brown" style="background-color: brown;"></button>
+        <button class="color-button" data-color="yellow" style="background-color: yellow;"></button>
+        <button class="color-button" data-color="pink" style="background-color: pink;"></button>
+        <button class="color-button" data-color="purple" style="background-color: purple;"></button>
+        <button class="color-button" data-color="mediumaquamarine" style="background-color: mediumaquamarine;"></button>
+        <button class="color-button" data-color="orange" style="background-color:orange;"></button>
+        <button class="bi bi-eraser-fill" id="eraser-button"></button>
+        <button id="reset-button">Reset</button>
+        <button id="save-button">Save</button>
+
+        <label for="thickness">Thickness:</label>
+<input type="range" id="thickness" min="1" max="20" value="5">
+
+    </div>
+
+ 
+
+   
+ 
+
+   
+
+<canvas id="canvas"></canvas>
+<div id="cursor" class="cursor"></div>
+<script type="module" defer src="/assets/script.js"></script>
+</body>
+</body>
+</html>

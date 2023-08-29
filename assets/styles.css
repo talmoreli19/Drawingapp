@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(146, 146, 122) !important; /* Change the background color here */
+}
+
+#color-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.color-button {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+canvas {
+    display: block;
+    background-color: white;
+    border: 2px solid #000;
+    margin: 20px auto;
+}
+
+.cursor {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    pointer-events: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+h1 { 
+
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+;
+}
